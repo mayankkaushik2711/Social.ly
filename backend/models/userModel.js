@@ -78,12 +78,12 @@ const userSchema = mongoose.Schema({
     avatar: {
         public_id: {
             type: String,
-            required: true,
+            // required: true,
             default: 'image'
         },
         url: {
             type: String,
-            required: true,
+            // required: true,
             default: 'none'
         }
     },
